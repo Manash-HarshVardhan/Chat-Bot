@@ -1,0 +1,25 @@
+.opened{
+    transition: all 0.3s;
+    position:fixed;
+    right: 10px;
+    bottom: 20px;
+   
+    transform: translateY(100%);
+    width: 410px;
+    z-index: 9999;
+    &__container{
+        margin: 20px;
+        box-shadow: 0 4px 16px rgba($color1, 0.25);
+        border-radius: 15px;
+        overflow: hidden; 
+        width: 370px;
+        height: 530px;
+        
+        
+    }
+}
+
+.opened-show{
+    transform: translateY(0);
+}
+
