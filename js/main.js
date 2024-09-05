@@ -13,20 +13,6 @@ let sendEvent;
 let quickreplies;
 let response;
 
-document.addEventListener('click', (event) => {
-    if (chatBox && !chatBox.contains(event.target) 
-        && bubble && !bubble.contains(event.target)
-    ) 
-    {
-        // closedContainer.classList.remove('closed-hide');
-        // openedContainer.classList.remove('opened-show');
-        // resetConversation();
-        console.log('hello');
-        
-    }
-});
-
-
 bubble.addEventListener('click', () => {
     closedContainer.classList.add('closed-hide');
     openedContainer.classList.add('opened-show');
